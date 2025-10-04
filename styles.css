@@ -1,0 +1,95 @@
+body {
+	background-color: #f0f8ff;
+}
+
+h2 {
+	font-family:"Times New Roman", sans-serif;
+	font-style: italic;
+	font-size: 18px; 
+	text-align: center;
+}
+		
+section {
+	padding: 20px;
+	margin: 0 20px;
+}
+		
+hr {
+	height: 2px;
+	color: #1e90ff;
+	margin: 20px 0;
+}
+		
+div {
+    border-color: #5F9EA0;
+	text-align: center; 
+	border-style: solid; 
+}
+
+.personality{
+    border-color: #F08080;
+	text-align: center; 
+	border-style: solid; 
+	border-radius: 10px;
+	
+}
+
+.pink-link:link, .pink-link:visited{
+    color: pink;
+}
+		
+nav {
+	position: sticky;
+	top: 0;
+	margin: 0;
+	padding: 5px;
+	background-color: lightblue;
+	justify-content: center;
+	
+}
+
+nav a {
+	margin: 0 15px;
+	padding: 8px 12px;
+}
+		
+header {
+	text-align: center;
+}
+a:link, a:visited{
+    color: #008B8B;
+}
+
+nav a:hover {
+	color: white;
+	border-radius: 5px;
+}
+		
+img {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: lightblue;
+}
+
+table {
+    padding: 50px;
+    height: 120px;
+    width: 120px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-radius: 20px;
+}
+
+th, tr, td{
+    border: 1px, dashed;
+    border-color: purple;
+    border-radius: 20px;
+    align: center;
+    padding: 20px;
+}
